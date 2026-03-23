@@ -18,10 +18,10 @@
       fx:controller="org.example.avgspd.AverageSpeedController"
       spacing="15"
       alignment="TOP_CENTER"
-      style="-fx-padding: 20; -fx-background-color: #f0f0f0;">
+      stylesheets="@style.css">
 
     <!-- Title -->
-    <Label fx:id="avgTitle"
+    <Label fx:id="lblTitle"
            text="Average Speed"
            style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
 
