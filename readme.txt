@@ -1,6 +1,8 @@
 Activate the xmin:
 PS C:\Program Files (x86)\xming> .\Xming.exe :0 -ac -multiwindow -clipboard
 
+Run Minikube:
+> minikube start
 to run the minikube in intellij first make sure minikube has it own docker daemo
 
 1. & minikube -p minikube docker-env --shell powershell | Invoke-Expression
