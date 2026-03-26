@@ -98,7 +98,7 @@ public class AverageSpeedController {
 
         // Update all UI text
         lblTitle.setText(localizedStrings.getOrDefault("title", "Average Calculator"));
-        lblDistant.setText(localizedStrings.getOrDefault("distant", "Distant (km):"));
+        lblDistant.setText(localizedStrings.getOrDefault("distance", "Distant (km):"));
         lblTime.setText(localizedStrings.getOrDefault("time", "Time (h):"));
         btnCalculate.setText(localizedStrings.getOrDefault("calculate", "Calculate Average Speed"));
 

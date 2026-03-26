@@ -36,7 +36,7 @@ public class LocalizationService {
             } catch (Exception ex) {
                 // Use hardcoded defaults as last resort
                 strings.put("title", "Average Calculator");
-                strings.put("distance", "Distance (kg):");
+                strings.put("distance", "Distance (km):");
                 strings.put("time", "Time (h):");
                 strings.put("calculate", "Calculate avg");
                 strings.put("current_time", "Current Time: %s");
